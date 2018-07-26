@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.rajendarreddyj</groupId>
+    <artifactId>development-pom</artifactId>
+    <version>1.0</version>
+  </parent>
+  <artifactId>development-spring-maven</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Spring maven projects</name>
+  <description>Spring maven Projects</description>
+  <properties>
+  </properties>
+  <!-- add GitHub rajendarreddyj maven-repo to repositories -->
+  <repositories>
+    <repository>
+      <id>github-maven-repo</id>
+      <url>https://github.com/rajendarreddyj/maven-repo/raw/master/</url>
+    </repository>
+  </repositories>
+  <modules>
+    <module>spring-batch</module>
+    <module>spring-batch-quartz</module>
+    <module>spring-batch-quartz-cluster</module>
+    <module>spring-properties</module>
+    <module>spring-rest-security</module>
+  </modules>
+    <organization>
+    <url>https://rajendarreddyj.github.io/</url>
+    <name>rajendarreddyj</name>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.githubusercontent.com/rajendarreddyj/development-spring-maven/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <email>rajendarreddyj@gmail.com</email>
+      <name>Rajendarreddy Jagapathi</name>
+      <url>https://github.com/rajendarreddyj</url>
+      <id>rajendarreddyj</id>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/rajendarreddyj/development-spring-maven.git</url>
+    <developerConnection>scm:git:git@github.com:rajendarreddyj/development-spring-maven.git</developerConnection>
+    <tag>HEAD</tag>
+    <connection>scm:git:git://github.com/rajendarreddyj/development-spring-maven.git</connection>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/rajendarreddyj/development-spring-maven/issues</url>
+  </issueManagement>
+  <ciManagement>
+    <url>https://travis-ci.org/rajendarreddyj/development-spring-maven</url>
+    <system>Travis</system>
+  </ciManagement>
+</project>
