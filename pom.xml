@@ -25,13 +25,10 @@
     </repository>
   </repositories>
   <modules>
-    <module>spring-batch</module>
-    <module>spring-batch-quartz</module>
-    <module>spring-batch-quartz-cluster</module>
     <module>spring-properties</module>
     <module>spring-rest-security</module>
   </modules>
-    <organization>
+  <organization>
     <url>https://rajendarreddyj.github.io/</url>
     <name>rajendarreddyj</name>
   </organization>
